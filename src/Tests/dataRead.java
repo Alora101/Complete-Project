@@ -16,7 +16,7 @@ public class dataRead {
 	System.out.println(r.getCellData("Login", 1 , 2));
 	System.out.println(r.getCellData("Login", "First Name", 5));
 	System.out.println(r.setCellData("Login", "First Name"
-, 9, "ThankGod"));
+, 9, "ThankGod101"));
 	
 	}
 }
