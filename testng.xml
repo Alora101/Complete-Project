@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+
+
+
+<test name="My Test 1">
+    <classes>
+        <class name="Tests.JimmyTest" ></class>  
+    </classes>
+</test>
+
+<test name="My Test 2">
+    <classes>
+        <class name="Tests.loginTest" ></class>  
+    </classes>
+</test>
+
+<test name="My Test 3">
+    <classes>
+        <class name="Tests.Testers" ></class>  
+    </classes>
+</test>
+
+<test name="Data Test">
+    <classes>
+        <class name="Tests.dataRead" ></class>  
+    </classes>
+</test>
+
+<test name = "Provider">
+
+   <classes>
+   
+         <class name = "Tests.providerTest"></class>
+         
+   </classes>
+
+</test>
+
+<listeners>
+   <listener class-name = "UtilClass.testListener"/>
+</listeners>
+
+<test name = "ListenerTest">
+<classes>
+      <class name ="Tests.ListenerTest"></class>
+</classes>
+</test>
+
+</suite>

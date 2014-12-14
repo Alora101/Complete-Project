@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Sample Suite]" parallel="false">
+  <listeners>
+    <listener class-name="UtilClass.testListener"/>
+  </listeners>
+  <test name="ListenerTest(failed)">
+    <classes>
+      <class name="Tests.ListenerTest">
+        <methods>
+          <include name="TestB"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

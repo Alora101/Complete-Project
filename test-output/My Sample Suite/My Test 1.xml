@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Bumblebee-PC" name="Tests.JimmyTest" tests="2" failures="0" timestamp="14 Dec 2014 17:39:09 GMT" time="0.04" errors="0">
+  <testcase name="Trial" time="0.01" classname="Tests.JimmyTest"/>
+  <testcase name="Trial2" time="0.01" classname="Tests.JimmyTest"/>
+</testsuite>

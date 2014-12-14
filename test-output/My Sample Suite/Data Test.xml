@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Bumblebee-PC" name="Tests.dataRead" tests="1" failures="0" timestamp="14 Dec 2014 17:39:11 GMT" time="1.92" errors="0">
+  <testcase name="datatest" time="1.92" classname="Tests.dataRead"/>
+</testsuite>

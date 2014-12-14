@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Bumblebee-PC" name="Tests.ListenerTest" tests="2" failures="1" timestamp="14 Dec 2014 17:39:11 GMT" time="0.0" errors="0">
+  <testcase name="TestB" time="0.0" classname="Tests.ListenerTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;B&amp;gt; but was:&amp;lt;A&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<B> but was:<A>
+	at Tests.ListenerTest.TestB(ListenerTest.java:17)
+... Removed 29 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TestA" time="0.0" classname="Tests.ListenerTest"/>
+</testsuite>
