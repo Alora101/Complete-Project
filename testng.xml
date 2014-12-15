@@ -4,7 +4,7 @@
 
 
 
-<test name="My Test 1">
+<test name="My Test 123456789">
     <classes>
         <class name="Tests.JimmyTest" ></class>  
     </classes>
